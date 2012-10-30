@@ -2,6 +2,9 @@ So what is this? It's a [Backbone](http://documentcloud.github.com/backbone/) wo
 
 You may have noticed today's web applications involve more than a few lines of JavaScript. You've probably also figured out JavaScript lacks certain...features...that make writing non-trivial applications more challenging. How do we resolve this conundrum? Luckily for us, we can leverage libraries like Backbone add some structure to our code. Backbone brings the concepts of the model view controller pattern we've applied to the server for years to the browser.
 
+For simplicity and to make comparisons easier, I'm leveraging the *awesome* work done by [Addy Osmani](https://github.com/addyosmani)
+and the other contributors to  [TodoMVC](http://todomvc.com).
+
 For those that are curious about *me*, here's my bio:
 
 Nathaniel T. Schutta is a senior software engineer focussed on making usable applications. A proponent of polyglot programming, Nate has written two books on Ajax and speaks regularly at various worldwide conferences, No Fluff Just Stuff symposia, universities, and Java user groups. In addition to his day job, Nate is an adjunct professor at the University of Minnesota where he teaches students to embrace dynamic languages. Nate is also doing everything he can to rid the world of bad presentations, he helped write a book on [Presentations Patterns](http://presentationpatterns.com).
