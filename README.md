@@ -8,7 +8,7 @@ You may have noticed today's web applications involve more than a few lines of J
 For simplicity and to make comparisons easier, I'm leveraging the *awesome* work done by [Addy Osmani](https://github.com/addyosmani)
 and the other contributors to  [TodoMVC](http://todomvc.com).
 
-I'd like to thanks to [Pete Campbell](https://github.com/campbell) for serving as a sounding board for this workshop. I've based my approach off the one he [created](https://github.com/campbell/backbone-workshop).
+I'd like to say thanks to [Pete Campbell](https://github.com/campbell) for serving as a sounding board for this workshop. I've based my approach off the one he [created](https://github.com/campbell/backbone-workshop).
 
 #Your Guide#
 For those that are curious about *me*, here's my bio:
