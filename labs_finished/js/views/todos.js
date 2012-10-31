@@ -17,11 +17,17 @@ $(function() {
 
 		// The DOM events specific to an item.
 		events: {
+			'click .priority':  'changePriority',
 			'click .toggle':	'togglecompleted',
 			'dblclick label':	'edit',
 			'click .destroy':	'clear',
 			'keypress .edit':	'updateOnEnter',
 			'blur .edit':		'close'
+		},
+
+		changePriority: function(e){
+			var priority = $(e.target).attr('data-priority');
+			alert(priority);
 		},
 
 		// The TodoView listens for changes to its model, re-rendering. Since there's
