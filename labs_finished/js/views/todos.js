@@ -30,6 +30,9 @@ $(function() {
 			//alert(priority);
 			this.$el.removeClass('high medium low');
 			this.$el.addClass(priority);
+			
+			this.model.set('priority', priority);
+			this.model.save();
 		},
 
 		// The TodoView listens for changes to its model, re-rendering. Since there's
