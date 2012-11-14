@@ -8,6 +8,21 @@
 	<!--[if IE]>
 	<script src="../assets/ie.js"></script>
 	<![endif]-->
+	<style type='text/css'>
+			.priorities {
+				text-align: center;
+			}
+			.priorities .priority {
+				-webkit-border-radius: 4px;
+				border: 1px solid black;
+				font-size: 14px;
+				padding: 4px;
+				margin: 4px;
+			}
+			.high { background-color: red}
+			.medium { background-color: yellow}
+			.low { background-color: none}
+	</style>
 </head>
 <body>
 	<section id="todoapp">
@@ -31,6 +46,9 @@
 		<div class="view">
 			<input class="toggle" type="checkbox" <%= completed ? 'checked' : '' %>>
 			<label><%- title %></label>
+			
+			// add buttons here
+			
 			<button class="destroy"></button>
 		</div>
 		<input class="edit" value="<%- title %>">
