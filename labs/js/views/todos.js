@@ -38,7 +38,6 @@ $(function() {
 			this.$el.html( this.template( this.model.toJSON() ) );
 			this.$el.toggleClass( 'completed', this.model.get('completed') );
 
-			this.$el.addClass( this.model.get('priority') );
 
 			this.toggleVisible();
 			this.input = this.$('.edit');
