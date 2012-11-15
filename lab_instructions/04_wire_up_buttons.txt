@@ -1,0 +1,6 @@
+Wire up the Buttons
+
+* Add a handler that calls a method when a priority button is clicked
+* Implement the method to alert the priority of the button that was clicked
+* ${extract}/backbone_workshop/labs/js/views/todo.js
+* solution: ${extract}/backbone_workshop/labs_finished/js/views/todo_wire_up.js

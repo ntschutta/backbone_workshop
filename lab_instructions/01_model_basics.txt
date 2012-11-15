@@ -1,0 +1,7 @@
+Model Basics
+
+* Build a todo model (there’s a shell waiting for you)
+* Extend Backbone’s model
+* Add default attributes
+* ${extract}/backbone_workshop/labs/js/models/todo.js
+* solution: ${extract}/backbone_workshop/labs_finished/js/models/todo_basics.js

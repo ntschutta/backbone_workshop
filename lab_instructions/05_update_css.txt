@@ -1,0 +1,5 @@
+Change the View
+
+* Modify the priority button handler to change the CSS of the todo item based on the priority
+* ${extract}/backbone_workshop/labs/js/views/todo.js
+* solution: ${extract}/backbone_workshop/labs_finished/js/views/todo_update_css.js
