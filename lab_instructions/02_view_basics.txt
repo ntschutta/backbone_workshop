@@ -4,5 +4,5 @@ View Basics
 * Add a click handler to toggle the state of the todo item
 * Add a click handler for removing a todo item
 * Add a listener to trigger the render function when the todo model changes
-* ${extract}/backbone_workshop/labs/js/views/todo.js
-* solution: ${extract}/backbone_workshop/labs_finished/js/views/todo_basics.js
+* ${extract}/backbone_workshop/labs/js/views/todos.js
+* solution: ${extract}/backbone_workshop/labs_finished/js/views/todos_basics.js

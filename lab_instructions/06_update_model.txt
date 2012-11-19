@@ -3,6 +3,6 @@ Update the Model
 * Add a default priority attribute to the model
 * In the todo item view, update the priority handler to set the current priority on the model, save the model
 * ${extract}/backbone_workshop/labs/js/models/todo.js
-* ${extract}/backbone_workshop/labs/js/views/todo.js
+* ${extract}/backbone_workshop/labs/js/views/todos.js
 * solution: ${extract}/backbone_workshop/labs_finished/js/models/todo.js
 * solution: ${extract}/backbone_workshop/labs_finished/js/views/todo_basics_update_model.js
