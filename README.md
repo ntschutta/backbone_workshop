@@ -4,6 +4,16 @@ So what is this? It's a [Backbone](http://documentcloud.github.com/backbone/) wo
 ##Conference Blurb##
 You may have noticed today's web applications involve more than a few lines of JavaScript. You've probably also figured out JavaScript lacks certain...features...that make writing non-trivial applications more challenging. How do we resolve this conundrum? Luckily for us, we can leverage libraries like Backbone add some structure to our code. Backbone brings the concepts of the model view controller pattern we've applied to the server for years to the browser.
 
+##Prerequisites##
+Attendees are expected to have a laptop (or be very good at quickly making friends with someone that has one). On said laptop, you should have at least one (ideally multiple) modern browser:
+
+* [Safari](http://www.apple.com/safari/)
+* [Chrome](https://www.google.com/intl/en/chrome/browser/)
+* [Firefox](http://www.mozilla.org/en-US/firefox/new/)
+* [Opera](http://www.opera.com)
+
+In addition, you should have a text editor though you can certainly load the labs into an IDE if you wish. The labs do not require any additional installation beyond cloning the repository to some location on your hard drive.
+
 ##Inspiration##
 For simplicity and to make comparisons easier, I'm leveraging the *awesome* work done by [Addy Osmani](https://github.com/addyosmani)
 and the other contributors to  [TodoMVC](http://todomvc.com).
