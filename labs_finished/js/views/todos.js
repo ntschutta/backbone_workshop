@@ -27,10 +27,6 @@ $(function() {
 
 		changePriority: function(e){
 			var priority = $(e.target).attr('data-priority');
-			//alert(priority);
-			this.$el.removeClass('high medium low');
-			this.$el.addClass(priority);
-			
 			this.model.set('priority', priority);
 			this.model.save();
 		},
@@ -49,6 +45,7 @@ $(function() {
 			this.$el.html( this.template( this.model.toJSON() ) );
 			this.$el.toggleClass( 'completed', this.model.get('completed') );
 
+			this.$el.removeClass('high medium low');
 			this.$el.addClass( this.model.get('priority') );
 
 			this.toggleVisible();
