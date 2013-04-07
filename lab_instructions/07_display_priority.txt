@@ -2,4 +2,4 @@ Display the Priority
 
 * Update the render method to display the todo item’s priority
 * ${extract}/backbone_workshop/labs/js/views/todos.js
-* solution: ${extract}/backbone_workshop/labs_finished/js/views/todos.js
+* solution: ${extract}/backbone_workshop/labs_finished/js/views/todos_display_priority.js
