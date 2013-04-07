@@ -1,9 +1,11 @@
 Display the Priority
 
 * Update the page to show a count of the high priority items
-* ${extract}/backbone_workshop/labs/js/views/todos.js
-* ${extract}/backbone_workshop/labs/js/views/todos.js
+* Add a filter to the collection to return the high priority items
+* Update the application to show the count of high priority items
 * ${extract}/backbone_workshop/labs/index.html
-* solution: ${extract}/backbone_workshop/labs_finished/js/views/todos.js
-* solution: ${extract}/backbone_workshop/labs_finished/js/views/todos.js
+* ${extract}/backbone_workshop/labs/js/collections/todos.js
+* ${extract}/backbone_workshop/labs/js/views/app.js
 * solution: ${extract}/backbone_workshop/labs_finished/index_high_count.html
+* solution: ${extract}/backbone_workshop/labs_finished/js/collections/todos.js
+* solution: ${extract}/backbone_workshop/labs_finished/js/views/app_high_count.js
