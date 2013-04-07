@@ -1,0 +1,8 @@
+Display the Priority
+
+* Add a "high" filter link to the footer area
+* Update the view to filter out the non high priority items when the high filter is invoked
+* ${extract}/backbone_workshop/labs/js/views/todos.js
+* ${extract}/backbone_workshop/labs/index.html
+* solution: ${extract}/backbone_workshop/labs_finished/js/views/todos.js
+* solution: ${extract}/backbone_workshop/labs_finished/index.html

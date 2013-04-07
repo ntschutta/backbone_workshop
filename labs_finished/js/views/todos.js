@@ -59,9 +59,11 @@ $(function() {
 
 		isHidden : function () {
 			var isCompleted = this.model.get('completed');
+			var isHighPriority = this.model.get('priority') === 'high';
 			return ( // hidden cases only
 				(!isCompleted && app.TodoFilter === 'completed')
 				|| (isCompleted && app.TodoFilter === 'active')
+				|| (!isHighPriority && app.TodoFilter === 'high')
 			);
 		},
 
