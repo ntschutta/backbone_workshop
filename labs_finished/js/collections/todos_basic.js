@@ -28,13 +28,6 @@ var app = app || {};
 			return this.without.apply( this, this.completed() );
 		},
 
-		// Filter down the list to only todo items that are high priority.
-		high: function() {
-			return this.filter(function( todo ) {
-				return todo.get('priority') === 'high';				
-			});
-		},
-		
 		// We keep the Todos in sequential order, despite being saved by unordered
 		// GUID in the database. This generates the next order number for new items.
 		nextOrder: function() {
